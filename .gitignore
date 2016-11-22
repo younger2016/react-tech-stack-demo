@@ -1,0 +1,21 @@
+# Created by .ignore support plugin (hsz.mobi)
+node_modules
+npm-debug.log
+src/client/vm/
+static/scripts/viewmodels/
+debug-client.bat
+debug-server.bat
+# Exclude compiled files
+build
+
+# Exclude IDE project folders
+.happypack
+.idea
+.vscode
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_STORE
+
+.js.map
