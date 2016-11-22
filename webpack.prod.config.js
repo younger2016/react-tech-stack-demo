@@ -9,7 +9,7 @@ var origin = [
 
 var config = {
   entry: {
-    'index': './src/client/index.jsx',
+    'index': './src/client/index.jsx',	//入口文件，做个测试
     //'business-index': './src/client/cube/index.js',
   },
   output: {
