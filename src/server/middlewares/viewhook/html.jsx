@@ -29,6 +29,7 @@ export default function html(pageInfo, content, state) {
     <link href="${baseUrl}/styles/antd/1.6.4/antd.min.css" rel="stylesheet" type="text/css" />
     <link href="${baseUrl}/styles/fixed-data-table/0.6.2/fixed-data-table.min.css" rel="stylesheet" type="text/css" />
     <link href="${baseUrl}/styles/base.css" rel="stylesheet" type="text/css" />
+    <link href="${baseUrl}/styles/test.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
     <div id="container">${content}</div>

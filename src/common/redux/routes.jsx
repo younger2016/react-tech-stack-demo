@@ -20,6 +20,8 @@ export default (
     <IndexRoute component={Pages.DefaultPage}/>
     <Route path="login" component={Pages.LoginPage}>
     </Route>
+    <Route path="test" component={Pages.TestPage}>
+    </Route>
     <Route path="saleorders" component={Pages.SaleOrdersPage}>
     </Route>
     <Route path="warningcenter" component={Pages.WarningCenterPage}>

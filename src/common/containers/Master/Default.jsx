@@ -8,12 +8,14 @@ import  Meta  from "../../components/basic/view";
 import  Refer  from "../../components/basic/refer";
 import  Tree  from "../../components/basic/tree"
 import  TabList  from "../../components/basic/tabs"
+//import  MySelect from "../../components/basic/divbox" //添加一个组建页面做个测试
 //import TitleSetting from '../TitleSetting'
 import {
   Row,
   Col,
   Modal,
   Button,
+  Select,
   Menu,
   Icon,
   Tabs,
@@ -198,48 +200,48 @@ class Page extends Component {
     }*/
     return(
       <Row>
-        <Menu onClick={this.handleClick}
-              mode="horizontal"
-              theme="dark"
-        >
-          <Menu.Item key="indextree">
-            <Icon type="bars" />
-          </Menu.Item>
-          <SubMenu title={<span><Icon type="user" />我的</span>}>
-            <Menu.Item key="setting:1">个人中心</Menu.Item>
-            <Menu.Item key="setting:2">我的设置</Menu.Item>
-            <MenuItemGroup title="分组2">
-              <Menu.Item key="setting:3">选项3</Menu.Item>
-              <Menu.Item key="setting:4">选项4</Menu.Item>
-            </MenuItemGroup>
-          </SubMenu>
-          <Menu.Item key="dyn" >
-            <Icon type="star-o" />动态
-          </Menu.Item>
-          <Menu.Item key="app" >
-            <Icon type="appstore" />应用
-          </Menu.Item>
-          <Menu.Item key="setting">
-            <Icon type="setting" />设置
-          </Menu.Item>
-          <Menu.Item key="alipay">
-            <a href="http://www.baidu.com/" target="_blank">导航四 - 链接</a>
-          </Menu.Item>
-          <Menu.Item key="logout">退出</Menu.Item>
-          <Menu.Item >搜索</Menu.Item>
-
-        </Menu>
-        <Col xs={modal.lxs} sm={modal.lsm} md={modal.lmd} lg={modal.llg}>
+        <Col className="numtopleft">
+          <Menu onClick={this.handleClick} mode="horizontal" theme="dark" >
+            <Menu.Item key="indextree">
+              <Icon type="bars" />
+            </Menu.Item>
+            <SubMenu title={<span><Icon type="user" />我的</span>}>
+              <Menu.Item key="setting:1">个人中心</Menu.Item>
+              <Menu.Item key="setting:2">我的设置</Menu.Item>
+              <MenuItemGroup title="分组2">
+                <Menu.Item key="setting:3">选项3</Menu.Item>
+                <Menu.Item key="setting:4">选项4</Menu.Item>
+              </MenuItemGroup>
+            </SubMenu>
+            <Menu.Item key="dyn" >
+              <Icon type="star-o" />动态
+            </Menu.Item>
+            <Menu.Item key="app" >
+              <Icon type="appstore" />应用
+            </Menu.Item>
+            <Menu.Item key="setting">
+              <Icon type="setting" />设置
+            </Menu.Item>
+            <Menu.Item key="alipay">
+              <a href="http://www.baidu.com/" target="_blank">导航四 - 链接</a>
+            </Menu.Item>
+            <Menu.Item key="logout">退出</Menu.Item>
+            <Menu.Item >搜索</Menu.Item>
+          </Menu>
+        </Col>
+      
+        <Col span={4} className="treebg" xs={modal.lxs} sm={modal.lsm} md={modal.lmd} lg={modal.llg}>
           <Tree titleField='menu_name' keyField='menu_code'
             expendall={true}
             treeData={TreeData}
             onSelect={this.onClick}
           />
         </Col>
-        <Col xs={modal.rxs} sm={modal.rsm} md={modal.rmd} lg={modal.rlg}>
+        <Col span={20} className="mainbg" xs={modal.rxs} sm={modal.rsm} md={modal.rmd} lg={modal.rlg}>
           <TabList/>
         </Col>
       </Row>
+
     )
   }
 }
