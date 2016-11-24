@@ -8,6 +8,8 @@ export default router
 
 import user from './user'
 user(router)
+import test from './test'
+test(router)
 
 // TODO: 增加其他模块的路由，如：
 // import xxx from './xxx'
