@@ -1,0 +1,33 @@
+.bg{background:#949494; height:30px; text-align: center; color:#000; font-size: 24px;}
+
+.bg1{background:rgb(113, 144, 255); height:30px; text-align: center; color:#000; font-size: 24px;}
+
+.bg2{background:rgb(225, 255, 129); height:30px; text-align: center; color:#000; font-size: 24px;}
+
+.bg3{background:rgb(184, 58, 171); height:30px; text-align: center; color:#000; font-size: 24px;}
+
+.bg4{background:rgb(227, 22, 101); height:30px; text-align: center; color:#000; font-size: 24px;}
+.bg5{background:rgb(156, 39, 249); height:30px; text-align: center; color:#000; font-size: 24px;}
+.bg6{background:rgb(61, 199, 125); height:30px; text-align: center; color:#000; font-size: 24px;}
+.bg7{background:rgb(10, 102, 157); height:30px; text-align: center; color:#000; font-size: 24px;}
+.bg8{background:rgb(59, 184, 18); height:30px; text-align: center; color:#000; font-size: 24px;}
+.bg9{background:rgb(165, 90, 181); height:30px; text-align: center; color:#000; font-size: 24px;}
+.bg10{background:rgb(156, 218, 192); height:30px; text-align: center; color:#000; font-size: 24px;}
+
+
+.gutter-example .ant-row > div {
+  background: transparent;
+  border: 0;
+}
+.gutter-box {
+  background: #00A0E9;
+  padding: 5px 0;
+  color:#000;
+  font-size:3em;
+  text-align:center;
+}
+.boxbg{background:red}
+
+.numtopleft{height:100%;}
+.treebg{background:rgb(46, 46, 46); color:#ffffff; }
+.mainbg{background:rgb(238, 233, 255); padding:20px 20px 0 20px;}

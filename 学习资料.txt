@@ -1,0 +1,24 @@
+一、bower：http://dagaiwan.com/207.html
+Bower能帮助你管理所有这些东西。跟踪所有这些包，确保它们是最新的，统一的版本管理或者版本迭代。
+
+	1、npm install bower -g 全局安装bower
+	2、用bower 来安装 react ：bower install react  会生成一个bower_components文件夹
+	3、用bower 下载browser.min.js ： bower install babel 在bower_components 生成一个 babel 文件夹
+	4、可以用bower来下载各种插件：比如jquery，安装：bower install jquery，就会生成jquery文件夹
+
+	-5、npm install react-tools  说明：http://dagaiwan.com/230.html	jsx --help   jsx --watch build/ js/  打包所有js到这个js目录下
+
+	6、建立工程文件夹：build，这里放入js文件等内容。
+
+	浏览器辅助工具：React Developer Tools
+
+
+一、安装 www.browsersync.lo  ：  npm install --save browser-sync （可以快速开启node.js的服务模块）
+安装好这个插件之后可以在 package.json 文件里设置观察，scripts ： dev：browser-sync start --server --files *.*
+这个插件  browser-sync  可以自动观察所有页面。类似于 webpack的实时监控。
+
+
+资源：https://cdnjs.com/
+
+涉及的技术主要有webpack，react，redux，koa
+其实大家主要掌握react和redux就可以

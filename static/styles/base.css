@@ -1,0 +1,108 @@
+.hide{
+	display: none !important;
+}
+.show{
+	display: block !important;
+}
+.no-border{
+	border:none !important;
+}
+.no-border-radius{
+	border-radius: 0;
+}
+.ant-col-xs-8{
+	padding: 5px 8px 5px 8px;
+}
+.p-v-5{
+	padding: 5px 0;
+}
+/******************通用表格样式** start*******************/
+.public_fixedDataTableRow_expanded .fixedDataTableCellGroupLayout_cellGroupWrapper .public_fixedDataTableCell_main {
+  width: 0 !important;
+  left: 0 !important;
+}
+.public_fixedDataTableRow_expanded .fixedDataTableCellGroupLayout_cellGroupWrapper .public_fixedDataTableCell_main:first-child {
+  width: 100% !important;
+}
+.public_fixedDataTableRow_selected,
+.public_fixedDataTableRow_selected .public_fixedDataTableCell_main {
+  background-color: #d5f1fd;
+}
+.public_fixedDataTableCell_empty{
+	min-height: 10px;
+}
+.public_fixedDataTableCell_empty .ant-search-input-wrapper{
+  width: 100%;
+}
+.ant-input-number,.ant-calendar-picker,.ant-select{
+  width: 100%;
+}
+/******************通用表格样式** end*********************/
+/******************通用查询样式** start*******************/
+.common-query-row{
+	height: 50px;
+	line-height: 50px;
+	margin-bottom: 20px;
+}
+.common-query-row > div[class^='ant-col-']{
+	border-bottom: 2px solid #e4e4e4;
+}
+.common-query-row .ant-tabs-bar{
+	margin-bottom: 0px;
+	margin-top: 15px;
+	border-bottom: 0;
+}
+.common-query-row .ant-search-input-wrapper .ant-search-input.ant-input-group input{
+	border-radius: 0;
+}
+.common-query-row .ant-input-group-wrap button{
+	border-width: 0;
+	background-color: white;
+}
+.common-query-modal .ant-row-flex.ant-row-flex-center > div.ant-col-20{
+	margin-bottom: 10px;
+}
+.common-query-modal .ant-row-flex.ant-row-flex-center .sp-range-txt,
+.quick-query-row .sp-range-txt{
+	margin-top: 5px;
+	text-align: center;
+}
+/******************通用查询样式** end*********************/
+/******************新UE 查询过滤**start*******************/
+.ant-popover-inner,
+.common-query-popover .ant-popover-inner{
+	border-radius: 0;
+}
+.common-query-popover .btn-onoff{
+	border-radius: 0;
+    width: 18px;
+}
+.common-query-popover .btn-onoff >i{
+	margin-left: -5px;
+}
+.common-query-popover .btn-onoff.btn-left{
+	margin-left: 22px;
+}
+.common-query-popover .ant-col-18 > .ant-row,
+.common-query-popover>.ant-row>div > .ant-row{
+	margin-bottom: 5px;
+}
+.common-query-popover .ant-menu-vertical,
+.common-query-popover .ant-menu-vertical .ant-menu-item{
+	border-right: none;
+}
+.common-query-popover .checkbox>div{
+	margin-top: 5px;
+}
+.common-query-popover .sp-range-txt{
+	margin-top: 5px;
+	text-align: center;
+}
+.common-query-popover .schemeContent{
+	max-height: 300px;
+	overflow-x: hidden;
+	overflow-y:auto; 
+	border-right:1px solid #d9d9d9;
+	margin-right: -17px;
+}
+/******************新UE 查询过滤**end*******************/

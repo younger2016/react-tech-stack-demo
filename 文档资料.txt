@@ -1,0 +1,98 @@
+https://github.com/younger2016/react-tech-stack-demo
+这是一个基于react-antd的demo
+
+
+用法很简单，在工程根目录运行cli
+
+打命令行npm install
+
+就装上了所有依赖的node包
+
+dev分支
+
+只管clone就行
+
+
+安装好所有依赖以后，命令行npm run debug:client和npm run debug:server就把系统跑起来了
+https://github.com/younger2016/react-tech-stack-demo/tree/dev   dev分支是吧  对的
+
+在浏览器上访问localhost:8081
+
+
+注意
+client和server分别是不同的cli窗口打开
+它们是不同的node线程
+
+学习：
+你学学require AMD这些  你用浏览器的dev-tool看下
+
+
+ECMAScript语法 + HTTP协议规范 + mongoDB(等其他数据存储) 。
+如果3个方向的东西都很了解， 你本身就是nodejs大神了，需要的方法去官网找一下API就行。
+否则：
+如果你只是为了做应用，你只是需要了解ECMAScript语法以及express的使用
+如果你想要能够解决nodejs中绝大部分问题，建议回去整那三个方向
+
+
+————————————————————————————————————————————
+github的库可以有不同分支
+github上可以看到
+
+本地运行git命令行以后打git branch -rv也可以看到
+然后用git checkout命令切换到相应分支上就可以看到
+
+你在网上可以多参考下git的教程
+好好掌握下git
+工具不关键，但是用好工具比较重要
+
+分支的英文是branch
+github上有相应的tab
+页签
+
+现阶段的代码你新建分支然后提交
+看分支的命令是git branch
+
+新建分支是git branch xxx
+xxx是分支名
+切到分支上是git checkout xxx
+
+
+
+——————————————————————————————————————————————
+查看git版本：git version
+ git config --global user.name "bensky"
+ git config --global user.email "tzmsn@msn.com"
+ git init
+ git status 查看工作区 rm是删除
+
+ git add xxx添加到缓存仓库
+
+ git commit-m "add readme.txt" //将暂存区的文件提交到repository
+
+	cat xxx  查看文件内容；
+
+	vi xxx  编辑文件内容；
+	git diff 查看修改后的内容；
+
+查看日志：git log
+
+git reset –hard HEAD^   //退回到上一个版本；多个^ 就是上上  git reset –hard HEAD~100
+
+git rm xxx  //从仓库中删除
+git mv 源文件路径 目标路径 //从仓库中移动文件
+
+git本地代码上传到远程仓库
+1、ssh-keygen -t rsa -C "tzmsn@Msn.com"  	//生成ssh秘钥
+2、git remote add origin git@github.com/xxx/xxx.git   //关联远程仓库
+3、git push -u origin master //第一次全部推送所有的到远程
+4、git push origin master   //之后只要本地修改了直接执行这个命令，就可以提交到github上
+
+git 的创建、查看、合并、删除、保留情况下的合并
+1、创建分支1、git branch xxx   切换到创建的分支git checkout xxx  
+2、git checkout -b dev
+2、查看分支 git
+
+
+
+
+
