@@ -10,7 +10,7 @@
   * 数据操作action的命名：PLATFORM_DATA_{Module Description}_{Operation Description}，如：PLATFORM_DATA_FETCH_USERS
 
 #### CLI
-``` 
+```
 // 项目初始化
 npm install
 
@@ -25,6 +25,7 @@ npm run build
 
 // 发布后，前后端程序启动
 npm start
+111
 ```
 
 #### 文档
